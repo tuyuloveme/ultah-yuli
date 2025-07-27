@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.bokeh-bg::before {
+  content: "";
+  background: url("/bokeh.gif") center/cover no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.bokeh-bg::after {
+  content: "";
+  background: url("/looping-bg.gif") center/cover no-repeat;
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  z-index: 0;
+}
