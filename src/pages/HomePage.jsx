@@ -3,7 +3,7 @@ import GreetingCard from "@/components/GreetingCard";
 import ConfettiButton from "@/components/ConfettiButton";
 import StartButton from "@/components/StartButton";
 import BackgroundMusic from "@/components/BackgroundMusic";
-import TypewriterText from "@/components/TypewriterText";
+import TypewriterText from "@/components/TypeWriterText";
 import ConfettiBackground from "@/components/ConfettiBackground";
 import BotIntro from "@/components/BotIntro";
 import { motion, AnimatePresence } from "framer-motion";
